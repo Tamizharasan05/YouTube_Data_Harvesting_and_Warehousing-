@@ -491,7 +491,7 @@ def main():
     with col1:
         st.header("Navigation")
         options = ["About the Developer", "Skills take away From This Project", "Objective", "Features", 
-                   "Workflow", "Prerequisites", "Required Python Libraries", "Approach"]
+                    "Prerequisites", "Required Python Libraries", "Approach"]
         choice = st.radio("Go to", options)
 
     with col2:
@@ -503,8 +503,6 @@ def main():
             objective()
         elif choice == "Features":
             features()
-        elif choice == "Workflow":
-            workflow()
         elif choice == "Prerequisites":
             prerequisites()
         elif choice == "Required Python Libraries":
