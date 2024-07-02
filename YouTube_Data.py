@@ -432,12 +432,9 @@ def insert_channel_details(conn, channel_id):
 # Streamlit app sections
 def about_the_developer():
     st.header("About the Developer")
-    st.image("1.jpg", caption="Sethumadhavan V", width=150)
     st.subheader("Contact Details")
-    st.write("Email: sethumadhavanvelu2002@example.com")
+    st.write("Email: ktamizharasan231@gmail.com")
     st.write("Phone: 9159299878")
-    st.write("[LinkedIn ID](https://www.linkedin.com/in/sethumadhavan-v-b84890257/)")
-    st.write("[github.com](https://github.com/SETHU0010/YouTube_Data_Harvesting_and_Warehousing_using_SQL_and_Streamlit)")
 
 def skills_take_away():
     st.header("Skills Take Away From This Project")
@@ -456,10 +453,6 @@ def features():
     st.write("Recover channel details, video information, playlists, and comments using the YouTube API.")
     st.write("Store recovered data in a MySQL database.")
     st.write("Provide query functionality for data analysis within the application.")
-
-def workflow():
-    st.header("Workflow")
-    st.image("2.png", caption="Workflow", width=900)
 
 def prerequisites():
     st.header("Prerequisites")
