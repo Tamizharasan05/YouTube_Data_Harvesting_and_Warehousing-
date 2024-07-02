@@ -433,6 +433,7 @@ def insert_channel_details(conn, channel_id):
 def about_the_developer():
     st.header("About the Developer")
     st.subheader("Contact Details")
+    st.write("Tamizharasan K")
     st.write("Email: ktamizharasan231@gmail.com")
     st.write("Phone: 9159299878")
 
